@@ -10,4 +10,5 @@ Install metamask extension
 2. using hardhat-ts project, run in two new console windows
    a) `npx hardhat node`
    b) `npx hardhat run scripts/deploy.ts --network localhost`
-3. `npm start`
+3. Change `GREETER_ADDRESS` at `utils/greeter.js` accordly
+4. `npm start`
